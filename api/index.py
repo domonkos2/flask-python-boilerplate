@@ -54,7 +54,7 @@ DEV_IP                  = "88.132.160.195"
 DISCORD_DEV_SECRET      = os.environ.get("XERA_DISCORD_DEV_SECRET", "")
 
 # Access token used to verify Meta/Oculus platform-integrity attestation.
-META_ACCESS_TOKEN       = os.environ.get("XERA_META_ACCESS_TOKEN", "OC|1354137974445716|f7a793739fedf254fe9f6b9cc74921d5")
+META_ACCESS_TOKEN       = os.environ.get("XERA_META_ACCESS_TOKEN", "")
 
 # Discord webhook URL that receives a live feed of requests/responses from
 # DEV_IP when DEBUG_WEBHOOK_ENABLED is True. Leave the env var unset (empty)
