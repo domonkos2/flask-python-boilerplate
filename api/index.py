@@ -178,7 +178,7 @@ def enforce_ip_ban():
 
 # Local file paths - these are computed automatically, no need to touch them.
 SCRIPT_DIR      = os.path.dirname(os.path.abspath(__file__))
-DB_PATH         = os.path.join(SCRIPT_DIR, "Data.db")
+DB_PATH = "/tmp/Data.db"
 ITEMS_PATH      = os.path.join(SCRIPT_DIR, "items.json")
 GAME_DATA_PATH  = os.path.join(SCRIPT_DIR, "game-data-prod.zip")
 
