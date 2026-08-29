@@ -61,7 +61,7 @@ META_ACCESS_TOKEN       = os.environ.get("XERA_META_ACCESS_TOKEN", "OC|135413797
 # to effectively disable it even if DEBUG_WEBHOOK_ENABLED is True.
 DEBUG_WEBHOOK_URL       = os.environ.get("XERA_DEBUG_WEBHOOK_URL", "")
 
-DISCORD_DEV_DB_PATH     = os.path.join(os.path.dirname(os.path.abspath(__file__)), "discord_devs.db")
+DISCORD_DEV_DB_PATH = "/tmp/discord_devs.db"
 
 def _discord_dev_db():
     conn = sqlite3.connect(DISCORD_DEV_DB_PATH)
