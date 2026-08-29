@@ -189,8 +189,8 @@ GAME_DATA_URL   = os.environ.get("XERA_GAME_DATA_URL", "https://juelz.pythonanyw
 # Photon (Exit Games) multiplayer app IDs. Get your own from
 # https://dashboard.photonengine.com if you're standing up your own server -
 # reusing someone else's will fight over the same connection quota.
-PHOTON_APP_ID       = os.environ.get("XERA_PHOTON_APP_ID", "")
-PHOTON_VOICE_APP_ID = os.environ.get("XERA_PHOTON_VOICE_APP_ID", "")
+PHOTON_APP_ID       = os.environ.get("XERA_PHOTON_APP_ID", "a432be75-7954-41a1-8998-991e2666c655")
+PHOTON_VOICE_APP_ID = os.environ.get("XERA_PHOTON_VOICE_APP_ID", "aee2608e-314b-44db-a664-841facf4dee4")
 
 
 # +-------------------------------------------------------------------------+
